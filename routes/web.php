@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+Route::get('/registro', function () {
+    return view('user.registro');
+});
+
 Route::get('/categorias', function () {
     return view('front.categorias');
 });
